@@ -47,8 +47,9 @@ prime_numbers = [
 ]
 
 for i in range(1, 100):
-    if i > 4 and i % 4 == 0:
-        continue
-
-    if len(prime_factors_of_N(i)) > 1:
-        print(i)
+    meter = prime_factors_of_N(i)
+    if len(meter) > 1:
+        message = f"{i} has factors "
+        for j in range(len(meter)):
+            message += str(f"({int(meter[j])})")
+        print(message)
