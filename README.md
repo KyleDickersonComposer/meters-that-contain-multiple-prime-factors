@@ -5,6 +5,6 @@ You can't divide the meter 5/4 into regular subdivisions of its two pulses. For 
 
 And by simply extending this logic we can use this little python script to find other ways of grouping these incomplete odd meters into beautiful flowing meters with many different ways of subdividing them. When it comes to filling in what Paul Creston calls "patterns", you can use additive concepts that sum to the number that is that same as the subdivision count of the pulse.
 
-In Creston's concept there is a distinction between the actual metrical beat which is defined by the common subdivision of the meter that is indicated and the actual beat that is felt. For example, you can divide 3/4 into its metrical pulse, or a metrical beat of 2 dotted quarters.
+In Creston's concept there is a distinction between the actual metrical pulse which is defined by the common subdivision of the meter that is indicated and a metrical beat which is the rhythmic beat that is actually felt. For example, you can divide 3/4 into its metrical pulse, or a metrical beat of 2 dotted quarters.
 
-Combining all of these concepts with things his concepts for accents and the commonly understood polyrhythms you can create incredible worlds of rhythm.
+Combining Creston's concepts for accents, patterns, and polyrhythms with the above regular meters can create incredible worlds of rhythm.
