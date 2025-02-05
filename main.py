@@ -11,8 +11,7 @@ def prime_factors_of_N(number):
 
     for i in range(1, number):
         if prime_numbers.__contains__(number / i):
-            if not nums.__contains__(number / i):
-                nums.append(number / i)
+            nums.append(number / i)
 
     return nums
 
@@ -47,10 +46,7 @@ prime_numbers = [
 
 for i in range(2, 100):
     meter = prime_factors_of_N(i)
-    if len(meter) == 1 or len(meter) == 3:
-        continue
-
-    if meter[0] > 20 and (meter[1] == 2 or meter[1] == 3):
+    if len(meter) == 1:
         continue
 
     message = f"{i} has prime factors "
