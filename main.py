@@ -10,10 +10,9 @@ def prime_factors_of_N(number):
         exit(1)
 
     for i in range(1, number):
-        for j in range(1, number):
-            if prime_numbers.__contains__(number / j):
-                if not nums.__contains__(number / j):
-                    nums.append(number / j)
+        if prime_numbers.__contains__(number / i):
+            if not nums.__contains__(number / i):
+                nums.append(number / i)
 
     return nums
 
